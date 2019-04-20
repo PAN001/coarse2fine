@@ -52,9 +52,9 @@ def main():
 
         # evaluation
         for pred, gold in zip(r_list, js_list):
-            print("pred: ", pred)
+            print("pred tgt: ", pred.tgt)
             print("gold:", gold)
-            
+
             pred.eval(gold)
         print('Results:')
         for metric_name in metric_name_list:
