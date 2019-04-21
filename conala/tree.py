@@ -24,6 +24,7 @@ class SCode(object):
                 raise NotImplementedError
 
     def set_by_str(self, f):
+        print("str: ", f)
         tk_list = list(
             tokenize(BytesIO(f.strip().encode('utf-8')).readline))[1:-1]
         self.token_list = [tk.string for tk in tk_list]
