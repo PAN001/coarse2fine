@@ -118,7 +118,7 @@ class Translator(object):
 
         # print('fields[tgt].vocab.itos', self.fields['tgt'].vocab.itos)
         print('fields[lay].vocab.itos', self.fields['lay'].vocab.itos)
-        exit(0)
+        # exit(0)
 
         model_opt = checkpoint['opt']
         model_opt.pre_word_vecs = opt.pre_word_vecs
