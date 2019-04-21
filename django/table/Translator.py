@@ -116,7 +116,7 @@ class Translator(object):
                                 map_location=lambda storage, loc: storage)
         self.fields = table.IO.TableDataset.load_fields(checkpoint['vocab'])
 
-        print('fields[tgt].vocab', self.fields['tgt'].vocab)
+        print('fields[tgt].vocab.itos', self.fields['tgt'].vocab.itos)
 
         model_opt = checkpoint['opt']
         model_opt.pre_word_vecs = opt.pre_word_vecs
