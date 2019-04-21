@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187bffe5-9e3f-449c-a322-9fde80646f06" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/evaluate.py" afterPath="$PROJECT_DIR$/django/evaluate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tree.py" afterPath="$PROJECT_DIR$/django/tree.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evaluate.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="evaluate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/evaluate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -99,13 +98,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tree.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+            <state relative-caret-position="260">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="108" selection-end-column="19" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <marker date="1555806030000" expanded="true" signature="3080:3455" ph="..." />
+                <marker date="1555806030000" expanded="true" signature="3659:3813" ph="..." />
               </folding>
             </state>
           </provider>
@@ -144,8 +145,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/django/tree.py" />
         <option value="$PROJECT_DIR$/django/evaluate.py" />
+        <option value="$PROJECT_DIR$/django/tree.py" />
       </list>
     </option>
   </component>
@@ -568,16 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -600,10 +591,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        <state relative-caret-position="153">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="108" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1555806030000" expanded="true" signature="3080:3455" ph="..." />
+            <marker date="1555806030000" expanded="true" signature="3659:3813" ph="..." />
           </folding>
         </state>
       </provider>
