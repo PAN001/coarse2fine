@@ -178,7 +178,9 @@ class TableDataset(torchtext.data.Dataset):
         src_examples = self._construct_examples(src_data, 'src')
 
         lay_data = self._read_annotated_file(opt, js_list, 'lay', filter_ex)
+        print('lay_data: ', lay_data)
         lay_examples = self._construct_examples(lay_data, 'lay')
+        print('lay_examples: ', lay_examples)
 
         # without <s> and </s>
         lay_e_data = self._read_annotated_file(opt, js_list, 'lay', filter_ex)
