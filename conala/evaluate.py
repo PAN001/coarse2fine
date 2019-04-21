@@ -8,7 +8,7 @@ import glob
 import table
 import table.IO
 import opts
-import table.bleu_score
+import table.modules.bleu_score
 
 parser = argparse.ArgumentParser(description='evaluate.py')
 opts.translate_opts(parser)
