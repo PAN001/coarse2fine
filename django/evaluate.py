@@ -53,6 +53,7 @@ def main():
         # evaluation
         for pred, gold in zip(r_list, js_list):
             print("pred tgt: ", pred.tgt)
+            print("pred lay: ", pred.lay)
             print("gold:", gold)
 
             pred.eval(gold)

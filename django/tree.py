@@ -100,10 +100,18 @@ def is_code_eq(t1, t2, not_layout=False):
     return t1==t2
 
 
-if __name__ == '__main__':
-    for s in ("if base64d [ : 1 ] == b' _STR:0_ ' :".split(), "if base64d [ : 1 ] == b' _STR:0_ ' :".split(), "compressed = zlib . compress ( data )".split(), "compressed = zlib.compress(data)".split(),):
-        t = SCode(s)
-        print(1, t)
-        print(2, t.to_list())
-        print(3, ' '.join(t.layout(add_skip=False)))
-        print('\n')
+# if __name__ == '__main__':
+#     for s in ("if base64d [ : 1 ] == b' _STR:0_ ' :".split(), "if base64d [ : 1 ] == b' _STR:0_ ' :".split(), "compressed = zlib . compress ( data )".split(), "compressed = zlib.compress(data)".split(),):
+#         t = SCode(s)
+#         print(1, t)
+#         print(2, t.to_list())
+#         print(3, ' '.join(t.layout(add_skip=False)))
+#         print('\n')
+
+for s in ("if base64d [ : 1 ] == b' _STR:0_ ' :".split(), "if base64d [ : 1 ] == b' _STR:0_ ' :".split(), "compressed = zlib . compress ( data )".split(), "compressed = zlib.compress(data)".split(),):
+    print("s", s)
+    t = SCode(s)
+    print(1, t)
+    print(2, t.to_list())
+    print(3, ' '.join(t.layout(add_skip=False)))
+    print('\n')
