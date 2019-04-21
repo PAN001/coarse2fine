@@ -147,16 +147,18 @@ def _preprocess_json(js, opt):
     js['tgt'] = t.target()
 
 def read_anno_json(anno_path, opt):
+    ret = []
     with codecs.open(anno_path, "r", "utf-8") as corpus_file:
         js_list = [json.loads(line) for line in corpus_file]
         err_cnt = 0
         for js in js_list:
             try:
                 _preprocess_json(js, opt)
+                ret.append(js)
             except:
                 print(err_cnt)
                 err_cnt += 1
-    return js_list
+    return ret
 
 
 class TableDataset(torchtext.data.Dataset):
