@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187bffe5-9e3f-449c-a322-9fde80646f06" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conala/tree.py" afterPath="$PROJECT_DIR$/conala/tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conala/table/IO.py" afterPath="$PROJECT_DIR$/conala/table/IO.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,21 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IO.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IO.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conala/table/IO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="281">
+              <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+              <folding>
+                <marker date="1555819206000" expanded="true" signature="4008:4317" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conala/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="315">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -81,8 +83,8 @@
       <find>SCode</find>
       <find>fields</find>
       <find>ParseResult</find>
-      <find>_preprocess_json</find>
       <find>read_anno_json</find>
+      <find>_preprocess_json</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,8 +97,8 @@
         <option value="$PROJECT_DIR$/django/tree.py" />
         <option value="$PROJECT_DIR$/django/table/Translator.py" />
         <option value="$PROJECT_DIR$/django/table/IO.py" />
-        <option value="$PROJECT_DIR$/conala/table/IO.py" />
         <option value="$PROJECT_DIR$/conala/tree.py" />
+        <option value="$PROJECT_DIR$/conala/table/IO.py" />
       </list>
     </option>
   </component>
@@ -657,20 +659,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conala/table/IO.py">
+    <entry file="file://$PROJECT_DIR$/conala/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conala/tree.py">
+    <entry file="file://$PROJECT_DIR$/conala/table/IO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="281">
+          <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1555819206000" expanded="true" signature="4008:4317" ph="..." />
           </folding>
         </state>
       </provider>

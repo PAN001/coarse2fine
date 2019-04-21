@@ -149,8 +149,13 @@ def _preprocess_json(js, opt):
 def read_anno_json(anno_path, opt):
     with codecs.open(anno_path, "r", "utf-8") as corpus_file:
         js_list = [json.loads(line) for line in corpus_file]
+        err_cnt = 0
         for js in js_list:
-            _preprocess_json(js, opt)
+            try:
+                _preprocess_json(js, opt)
+            except:
+                print(err_cnt)
+                err_cnt += 1
     return js_list
 
 
