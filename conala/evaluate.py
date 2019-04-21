@@ -70,7 +70,7 @@ def main():
         # calcualte bleu score
         pred_tgt_tokens = [pred.tgt for pred in r_list]
         gold_tgt_tokens = [gold['tgt'] for gold in js_list]
-        bleu_score = table.bleu_score.compute_bleu(gold_tgt_tokens, pred_tgt_tokens, smooth=False)
+        bleu_score = table.modules.bleu_score.compute_bleu(gold_tgt_tokens, pred_tgt_tokens, smooth=False)
         bleu_score = bleu_score[0]
 
         print('{}: = {:.4%}'.format('tgt blue score',
