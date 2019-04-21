@@ -79,10 +79,10 @@ def main():
         bleu_score_nltk = corpus_bleu(gold_tgt_tokens, pred_tgt_tokens, smoothing_function = SmoothingFunction().method3)
 
 
-        print('{}: = {:.4%}'.format('tgt blue score',
+        print('{}: = {:.4}'.format('tgt blue score',
                                     bleu_score))
 
-        print('{}: = {:.4%}'.format('tgt nltk blue score',
+        print('{}: = {:.4}'.format('tgt nltk blue score',
                                     bleu_score_nltk))
 
     if (opt.split == 'dev') and (prev_best[0] is not None):
