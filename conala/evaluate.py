@@ -8,6 +8,7 @@ import glob
 import table
 import table.IO
 import opts
+import table.bleu_score
 
 parser = argparse.ArgumentParser(description='evaluate.py')
 opts.translate_opts(parser)
@@ -65,6 +66,16 @@ def main():
                                                 c_correct, len(r_list), acc))
             if metric_name == 'tgt' and (prev_best[0] is None or acc > prev_best[1]):
                 prev_best = (fn_model, acc)
+
+        # calcualte bleu score
+        pred_tgt_tokens = [pred.tgt for pred in r_list]
+        gold_tgt_tokens = [gold['tgt'] for gold in js_list]
+        bleu_score = table.bleu_score.compute_bleu(gold_tgt_tokens, pred_tgt_tokens, smooth=False)
+        bleu_score = bleu_score[0]
+
+        print('{}: = {:.4%}'.format('tgt blue score',
+                                    bleu_score))
+
 
     if (opt.split == 'dev') and (prev_best[0] is not None):
         with codecs.open(os.path.join(opt.root_dir, opt.dataset, 'dev_best.txt'), 'w', encoding='utf-8') as f_out:

@@ -117,7 +117,7 @@ class Translator(object):
         self.fields = table.IO.TableDataset.load_fields(checkpoint['vocab'])
 
         # print('fields[tgt].vocab.itos', self.fields['tgt'].vocab.itos)
-        print('fields[lay].vocab.itos', self.fields['lay'].vocab.itos)
+        # print('fields[lay].vocab.itos', self.fields['lay'].vocab.itos)
 
         model_opt = checkpoint['opt']
         model_opt.pre_word_vecs = opt.pre_word_vecs
