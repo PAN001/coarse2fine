@@ -55,6 +55,9 @@ class Statistics(object):
 
 def count_accuracy(scores, target, mask=None, row=False):
     pred = argmax(scores)
+    print("===================== count_accuracy: ")
+    print("pred", pred)
+    print("target", target)
     if mask is None:
         m_correct = pred.eq(target)
         num_all = m_correct.numel()

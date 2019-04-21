@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187bffe5-9e3f-449c-a322-9fde80646f06" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conala/table/Translator.py" afterPath="$PROJECT_DIR$/conala/table/Translator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conala/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conala/table/Trainer.py" afterPath="$PROJECT_DIR$/conala/table/Trainer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +25,8 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conala/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="302">
+              <caret line="107" column="33" lean-forward="true" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -33,47 +34,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trainer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Trainer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conala/table/Trainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="232" column="8" lean-forward="false" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+              <folding>
+                <element signature="e#122#153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.sh">
+      <file leaf-file-name="ParseResult.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conala/table/ParseResult.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="47" column="49" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Translator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Translator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conala/table/Translator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-1644">
+              <caret line="105" column="49" lean-forward="false" selection-start-line="105" selection-start-column="49" selection-end-line="105" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bleu_score.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conala/table/modules/bleu_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="e#678#999#1" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ParserModel</find>
-      <find>tgt_decodertgt_decoder</find>
-      <find>is_code_eq</find>
-      <find>RIG_WORD</find>
-      <find>sketch</find>
-      <find>cuda</find>
-      <find>lay_out</find>
       <find>Trainer</find>
       <find>forward</find>
       <find>gpu</find>
@@ -95,8 +114,15 @@
       <find>_preprocess_json</find>
       <find>str:</find>
       <find>run</find>
-      <find>dev_best</find>
       <find>exit(0)</find>
+      <find>collections</find>
+      <find>acc</find>
+      <find>Statistics</find>
+      <find>aggregate_accuracy</find>
+      <find>is_code_eq</find>
+      <find>dev_best</find>
+      <find>eval</find>
+      <find>count_accuracy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,6 +139,7 @@
         <option value="$PROJECT_DIR$/conala/tree.py" />
         <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/conala/table/Translator.py" />
+        <option value="$PROJECT_DIR$/conala/table/Trainer.py" />
       </list>
     </option>
   </component>
@@ -200,6 +227,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coarse2fine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coarse2fine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -212,6 +261,11 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conala/table/modules" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.tree (1)">
     <configuration default="false" name="tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -484,7 +538,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -683,30 +737,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conala/tree.py">
+    <entry file="file://$PROJECT_DIR$/conala/table/modules/bleu_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="18" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#678#999#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conala/table/Trainer.py">
+    <entry file="file://$PROJECT_DIR$/conala/table/Translator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="232" column="8" lean-forward="false" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conala/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="-1644">
+          <caret line="105" column="49" lean-forward="false" selection-start-line="105" selection-start-column="49" selection-end-line="105" selection-end-column="49" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -719,11 +765,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conala/table/Translator.py">
+    <entry file="file://$PROJECT_DIR$/conala/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="302">
+          <caret line="107" column="33" lean-forward="true" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conala/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="81" column="14" lean-forward="false" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conala/table/ParseResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conala/table/Trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+          <folding>
+            <element signature="e#122#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
