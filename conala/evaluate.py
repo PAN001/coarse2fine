@@ -9,6 +9,7 @@ import table
 import table.IO
 import opts
 import table.modules.bleu_score
+from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
 
 parser = argparse.ArgumentParser(description='evaluate.py')
 opts.translate_opts(parser)
@@ -70,14 +71,19 @@ def main():
         # calcualte bleu score
         pred_tgt_tokens = [pred.tgt for pred in r_list]
         gold_tgt_tokens = [gold['tgt'] for gold in js_list]
-        print('pred_tgt_tokens[0]', pred_tgt_tokens[0])
-        print('gold_tgt_tokens[0]', gold_tgt_tokens[0])
+        # print('pred_tgt_tokens[0]', pred_tgt_tokens[0])
+        # print('gold_tgt_tokens[0]', gold_tgt_tokens[0])
         bleu_score = table.modules.bleu_score.compute_bleu(gold_tgt_tokens, pred_tgt_tokens, smooth=False)
         bleu_score = bleu_score[0]
+
+        bleu_score_nltk = corpus_bleu(gold_tgt_tokens, pred_tgt_tokens, smoothing_function = SmoothingFunction().method3)
+
 
         print('{}: = {:.4%}'.format('tgt blue score',
                                     bleu_score))
 
+        print('{}: = {:.4%}'.format('tgt nltk blue score',
+                                    bleu_score_nltk))
 
     if (opt.split == 'dev') and (prev_best[0] is not None):
         with codecs.open(os.path.join(opt.root_dir, opt.dataset, 'dev_best.txt'), 'w', encoding='utf-8') as f_out:
