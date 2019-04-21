@@ -42,7 +42,6 @@ fi
 
 if [ $DATANAME = "conala" ] ; then
     cd $DATANAME
-    python preprocess.py -root_dir "$WORK_DIR/data_model/" -dataset django -src_words_min_frequency 3 -tgt_words_min_frequency 5
     CUDA_VISIBLE_DEVICES=$GPU_ID python train.py -root_dir "$WORK_DIR/data_model/" -dataset $DATANAME -rnn_size 300 -word_vec_size 250 -decoder_input_size 200 -layers 1 -start_checkpoint_at 15 -learning_rate 0.002 -epochs 25 -global_attention "dot" -attn_hidden 0 -dropout 0.3 -dropout_i 0.3 -lock_dropout -copy_prb hidden
     CUDA_VISIBLE_DEVICES=$GPU_ID python evaluate.py -root_dir "$WORK_DIR/data_model/" -dataset $DATANAME -split dev -model_path "$DATA_DIR/run.*/m_*.pt"
     MODEL_PATH=$(head -n1 $DATA_DIR/dev_best.txt)
