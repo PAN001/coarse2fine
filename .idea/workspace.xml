@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187bffe5-9e3f-449c-a322-9fde80646f06" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tree.py" afterPath="$PROJECT_DIR$/django/tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/table/Translator.py" afterPath="$PROJECT_DIR$/django/table/Translator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +23,21 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="143" column="44" lean-forward="false" selection-start-line="143" selection-start-column="44" selection-end-line="143" selection-end-column="44" />
+            <state relative-caret-position="956">
+              <caret line="141" column="4" lean-forward="false" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trainer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/table/Trainer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="106" column="13" lean-forward="false" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,8 +65,8 @@
       <file leaf-file-name="ModelConstructor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/table/ModelConstructor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="92" column="11" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="11" />
+            <state relative-caret-position="260">
+              <caret line="149" column="27" lean-forward="true" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="27" />
               <folding>
                 <element signature="e#115#136#0" expanded="true" />
               </folding>
@@ -67,8 +77,8 @@
       <file leaf-file-name="Models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/table/Models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="331" column="30" lean-forward="false" selection-start-line="331" selection-start-column="26" selection-end-line="331" selection-end-column="30" />
+            <state relative-caret-position="191">
+              <caret line="454" column="24" lean-forward="false" selection-start-line="454" selection-start-column="13" selection-end-line="454" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -77,8 +87,8 @@
       <file leaf-file-name="evaluate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/evaluate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="62">
+              <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="28" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -98,25 +108,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="108" selection-end-column="19" />
+            <state relative-caret-position="1205">
+              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1555806030000" expanded="true" signature="3080:3455" ph="..." />
-                <marker date="1555806030000" expanded="true" signature="3659:3813" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Translator.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Translator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django/table/Translator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
-              <caret line="255" column="26" lean-forward="false" selection-start-line="255" selection-start-column="26" selection-end-line="255" selection-end-column="26" />
+            <state relative-caret-position="315">
+              <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -130,13 +138,18 @@
     <findStrings>
       <find>ParserModel</find>
       <find>tgt_decodertgt_decoder</find>
-      <find>gpu</find>
-      <find>cuda</find>
       <find>is_code_eq</find>
       <find>RIG_WORD</find>
       <find>sketch</find>
-      <find>model</find>
       <find>layoutlayout</find>
+      <find>cuda</find>
+      <find>lay_out</find>
+      <find>Trainer</find>
+      <find>forward</find>
+      <find>gpu</find>
+      <find>lay_decoder</find>
+      <find>model</find>
+      <find>fields</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,6 +160,7 @@
       <list>
         <option value="$PROJECT_DIR$/django/evaluate.py" />
         <option value="$PROJECT_DIR$/django/tree.py" />
+        <option value="$PROJECT_DIR$/django/table/Translator.py" />
       </list>
     </option>
   </component>
@@ -525,24 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/table/ModelConstructor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="92" column="11" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="11" />
-          <folding>
-            <element signature="e#115#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/table/Models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="331" column="30" lean-forward="false" selection-start-line="331" selection-start-column="26" selection-end-line="331" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -559,26 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/table/Translator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="255" column="26" lean-forward="false" selection-start-line="255" selection-start-column="26" selection-end-line="255" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="143" column="44" lean-forward="false" selection-start-line="143" selection-start-column="44" selection-end-line="143" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django/table/ParseResult.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -589,24 +565,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/evaluate.py">
+    <entry file="file://$PROJECT_DIR$/django/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="1205">
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/table/Models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="454" column="24" lean-forward="false" selection-start-line="454" selection-start-column="13" selection-end-line="454" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/table/Trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="106" column="13" lean-forward="false" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="956">
+          <caret line="141" column="4" lean-forward="false" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/tree.py">
+    <entry file="file://$PROJECT_DIR$/django/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/table/ModelConstructor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="108" selection-end-column="19" />
+          <caret line="149" column="27" lean-forward="true" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="27" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1555806030000" expanded="true" signature="3080:3455" ph="..." />
-            <marker date="1555806030000" expanded="true" signature="3659:3813" ph="..." />
+            <element signature="e#115#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/table/Translator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
