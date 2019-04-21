@@ -140,7 +140,7 @@ class OrderedIterator(torchtext.data.Iterator):
 
 
 def _preprocess_json(js, opt):
-    t = SCode((js['token'], js['type']))
+    t = SCode((" ").join(js['token']))
     js['lay'] = t.layout(add_skip=False)
     js['lay_skip'] = t.layout(add_skip=True)
     assert len(t.target()) == len(js['lay_skip']), (list(zip(t.target(), js['lay_skip'])), ' '.join(js['tgt']))
